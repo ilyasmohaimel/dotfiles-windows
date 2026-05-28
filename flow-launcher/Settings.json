@@ -1,0 +1,794 @@
+{
+  "Hotkey": "Alt \u002B F1",
+  "OpenResultModifiers": "Alt",
+  "ColorScheme": "System",
+  "ShowOpenResultHotkey": true,
+  "WindowSize": 580,
+  "PreviewHotkey": "F1",
+  "AutoCompleteHotkey": "Ctrl \u002B Tab",
+  "AutoCompleteHotkey2": "",
+  "SelectNextItemHotkey": "Tab",
+  "SelectNextItemHotkey2": "",
+  "SelectPrevItemHotkey": "Shift \u002B Tab",
+  "SelectPrevItemHotkey2": "",
+  "SelectNextPageHotkey": "PageUp",
+  "SelectPrevPageHotkey": "PageDown",
+  "OpenContextMenuHotkey": "Ctrl\u002BO",
+  "SettingWindowHotkey": "Ctrl\u002BI",
+  "OpenHistoryHotkey": "Ctrl\u002BH",
+  "CycleHistoryUpHotkey": "Alt \u002B Up",
+  "CycleHistoryDownHotkey": "Alt \u002B Down",
+  "DialogJumpHotkey": "Alt \u002B G",
+  "Language": "system",
+  "Theme": "tokyonight_storm",
+  "UseDropShadowEffect": false,
+  "BackdropType": 1,
+  "ReleaseNotesVersion": "2.1.2",
+  "WindowHeightSize": 42,
+  "ItemHeightSize": 58,
+  "QueryBoxFontSize": 16,
+  "ResultItemFontSize": 16,
+  "ResultSubItemFontSize": 13,
+  "QueryBoxFont": "Segoe UI",
+  "QueryBoxFontStyle": null,
+  "QueryBoxFontWeight": null,
+  "QueryBoxFontStretch": null,
+  "ResultFont": "Segoe UI",
+  "ResultFontStyle": null,
+  "ResultFontWeight": null,
+  "ResultFontStretch": null,
+  "ResultSubFont": "Segoe UI",
+  "ResultSubFontStyle": null,
+  "ResultSubFontWeight": null,
+  "ResultSubFontStretch": null,
+  "UseGlyphIcons": true,
+  "UseAnimation": true,
+  "UseSound": true,
+  "SoundVolume": 50,
+  "ShowBadges": false,
+  "ShowBadgesGlobalOnly": false,
+  "SettingWindowFont": "Segoe UI",
+  "UseClock": true,
+  "UseDate": false,
+  "TimeFormat": "hh:mm tt",
+  "DateFormat": "MM\u0027/\u0027dd ddd",
+  "FirstLaunch": false,
+  "SettingWindowWidth": 945,
+  "SettingWindowHeight": 1020,
+  "SettingWindowTop": 50,
+  "SettingWindowLeft": 965,
+  "SettingWindowState": 0,
+  "ShowPlaceholder": true,
+  "PlaceholderText": "",
+  "ShowHomePage": true,
+  "ShowHistoryResultsForHomePage": true,
+  "MaxHistoryResultsToShowForHomePage": 5,
+  "AutoRestartAfterChanging": false,
+  "ShowUnknownSourceWarning": true,
+  "AutoUpdatePlugins": true,
+  "CustomExplorerIndex": 0,
+  "CustomExplorerList": [
+    {
+      "Name": "Explorer",
+      "Path": "explorer",
+      "FileArgument": "/select, \u0022%f\u0022",
+      "DirectoryArgument": "\u0022%d\u0022",
+      "Editable": false
+    },
+    {
+      "Name": "Total Commander",
+      "Path": "C:\\Program Files\\totalcmd\\TOTALCMD64.exe",
+      "FileArgument": "/O /A /S /T \u0022%f\u0022",
+      "DirectoryArgument": "/O /A /S /T \u0022%d\u0022",
+      "Editable": true
+    },
+    {
+      "Name": "Directory Opus",
+      "Path": "C:\\Program Files\\GPSoftware\\Directory Opus\\dopusrt.exe",
+      "FileArgument": "/cmd Go \u0022%f\u0022 NEW",
+      "DirectoryArgument": "/cmd Go \u0022%d\u0022 NEW",
+      "Editable": true
+    },
+    {
+      "Name": "Files",
+      "Path": "Files-Stable",
+      "FileArgument": "-select \u0022%f\u0022",
+      "DirectoryArgument": "\u0022%d\u0022",
+      "Editable": true
+    }
+  ],
+  "CustomBrowserIndex": 0,
+  "CustomBrowserList": [
+    {
+      "Name": "Default",
+      "Path": "*",
+      "PrivateArg": "",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "Google Chrome",
+      "Path": "chrome",
+      "PrivateArg": "-incognito",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "Mozilla Firefox",
+      "Path": "firefox",
+      "PrivateArg": "-private",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "MS Edge",
+      "Path": "msedge",
+      "PrivateArg": "-inPrivate",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    }
+  ],
+  "EnableDialogJump": true,
+  "AutoDialogJump": false,
+  "ShowDialogJumpWindow": false,
+  "DialogJumpWindowPosition": "UnderDialog",
+  "DialogJumpResultBehaviour": "LeftClick",
+  "DialogJumpFileResultBehaviour": "FullPath",
+  "LogLevel": "INFO",
+  "ShouldUsePinyin": false,
+  "UseDoublePinyin": false,
+  "DoublePinyinSchema": "XiaoHe",
+  "AlwaysPreview": false,
+  "AlwaysStartEn": true,
+  "QuerySearchPrecision": "Regular",
+  "AutoUpdates": false,
+  "WindowLeft": 670,
+  "WindowTop": 259.5,
+  "PreviousScreenWidth": 0,
+  "PreviousScreenHeight": 0,
+  "PreviousDpiX": 0,
+  "PreviousDpiY": 0,
+  "CustomWindowLeft": 0,
+  "CustomWindowTop": 0,
+  "KeepMaxResults": false,
+  "MaxResultsToShow": 5,
+  "ActivateTimes": 484,
+  "CustomPluginHotkeys": [],
+  "CustomShortcuts": [],
+  "DontPromptUpdateMsg": false,
+  "EnableUpdateLog": false,
+  "StartFlowLauncherOnSystemStartup": true,
+  "UseLogonTaskForStartup": false,
+  "HideOnStartup": true,
+  "HideNotifyIcon": false,
+  "LeaveCmdOpen": false,
+  "HideWhenDeactivated": true,
+  "ShowTaskbarWhenInvoked": false,
+  "ShowAtTopmost": false,
+  "SearchQueryResultsWithDelay": false,
+  "SearchDelayTime": 150,
+  "SearchWindowScreen": "Cursor",
+  "SearchWindowAlign": "Center",
+  "CustomScreenNumber": 1,
+  "IgnoreHotkeysOnFullscreen": false,
+  "Proxy": {
+    "Enabled": false,
+    "Server": null,
+    "Port": 0,
+    "UserName": null,
+    "Password": null
+  },
+  "LastQueryMode": "Selected",
+  "AnimationSpeed": "Medium",
+  "CustomAnimationLength": 360,
+  "PluginSettings": {
+    "PythonExecutablePath": "C:\\Users\\LookFrost\\AppData\\Roaming\\FlowLauncher\\Environments\\Python\\PythonEmbeddable-v3.11.4\\pythonw.exe",
+    "NodeExecutablePath": "C:\\Program Files\\nodejs\\node.exe",
+    "Plugins": {
+      "0ECADE17459B49F587BF81DC3A125110": {
+        "ID": "0ECADE17459B49F587BF81DC3A125110",
+        "Name": "Browser Bookmarks",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "b"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "CEA0FDFC6D3B4085823D60DC76F28855": {
+        "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
+        "Name": "Calculator",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "572be03c74c642baae319fc283e561a8": {
+        "ID": "572be03c74c642baae319fc283e561a8",
+        "Name": "Explorer",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*",
+          "doc:",
+          "*",
+          "*",
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "6A122269676E40EB86EB543B945932B9": {
+        "ID": "6A122269676E40EB86EB543B945932B9",
+        "Name": "Plugin Indicator",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "?"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "9f8f9b14-2518-4907-b211-35ab6290dee7": {
+        "ID": "9f8f9b14-2518-4907-b211-35ab6290dee7",
+        "Name": "Plugins Manager",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "pm"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "b64d0a79-329a-48b0-b53f-d658318a1bf6": {
+        "ID": "b64d0a79-329a-48b0-b53f-d658318a1bf6",
+        "Name": "Process Killer",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "kill"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "791FC278BA414111B8D1886DFE447410": {
+        "ID": "791FC278BA414111B8D1886DFE447410",
+        "Name": "Program",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "D409510CD0D2481F853690A07E6DC426": {
+        "ID": "D409510CD0D2481F853690A07E6DC426",
+        "Name": "Shell",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "\u003E"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "CEA08895D2544B019B2E9C5009600DF4": {
+        "ID": "CEA08895D2544B019B2E9C5009600DF4",
+        "Name": "System Commands",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "0308FD86DE0A4DEE8D62B9B535370992": {
+        "ID": "0308FD86DE0A4DEE8D62B9B535370992",
+        "Name": "URL",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "565B73353DBF4806919830B9202EE3BF": {
+        "ID": "565B73353DBF4806919830B9202EE3BF",
+        "Name": "Web Searches",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "*",
+          "sc",
+          "wiki",
+          "findicon",
+          "facebook",
+          "twitter",
+          "maps",
+          "translate",
+          "github",
+          "gist",
+          "gmail",
+          "drive",
+          "wolframalpha",
+          "stackoverflow",
+          "lucky",
+          "image",
+          "youtube",
+          "bing",
+          "yahoo",
+          "bd",
+          "duckduckgo"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": 450,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "5043CETYU6A748679OPA02D27D99677A": {
+        "ID": "5043CETYU6A748679OPA02D27D99677A",
+        "Name": "Windows Settings",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "s"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "F6B8C1BC8441496798D2CE2BADB0E95E": {
+        "ID": "F6B8C1BC8441496798D2CE2BADB0E95E",
+        "Name": "Browser History",
+        "Version": "0.6.0",
+        "ActionKeywords": [
+          "bh"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "6c22cffe6b3546ec9087abe149c4a575": {
+        "ID": "6c22cffe6b3546ec9087abe149c4a575",
+        "Name": "GitHub",
+        "Version": "1.3.1",
+        "ActionKeywords": [
+          "gh"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "4D5DF575E4964C6AAADCF86134F09CC0": {
+        "ID": "4D5DF575E4964C6AAADCF86134F09CC0",
+        "Name": "Steam Search",
+        "Version": "10.0.0",
+        "ActionKeywords": [
+          "st"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": true,
+        "HomeDisabled": false
+      },
+      "cfe6d94b-c06c-4a66-8b57-aab57f047ce1": {
+        "ID": "cfe6d94b-c06c-4a66-8b57-aab57f047ce1",
+        "Name": "Time To Beat",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "ttb"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "8EC2CDFB9A8C4CC0A49CC61F158510F2": {
+        "ID": "8EC2CDFB9A8C4CC0A49CC61F158510F2",
+        "Name": "Wallpaper Searcher",
+        "Version": "1.0.2",
+        "ActionKeywords": [
+          "wp"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "a3f5d69c8e4b4e23b5e9a223c5b8f0a7": {
+        "ID": "a3f5d69c8e4b4e23b5e9a223c5b8f0a7",
+        "Name": "Website Opener",
+        "Version": "1.0",
+        "ActionKeywords": [
+          "gw"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": true,
+        "HomeDisabled": false
+      },
+      "F737A9223560B3C6833B5FFB8CDF78E5": {
+        "ID": "F737A9223560B3C6833B5FFB8CDF78E5",
+        "Name": "Window Walker",
+        "Version": "3.1.0",
+        "ActionKeywords": [
+          "\u0060"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "EC779402-4FF2-496D-862E-C2A14E1767C8": {
+        "ID": "EC779402-4FF2-496D-862E-C2A14E1767C8",
+        "Name": "Zoxide",
+        "Version": "1.5.2",
+        "ActionKeywords": [
+          "z"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "8025ce8b-b1ce-49cd-af48-b343a0df8606": {
+        "ID": "8025ce8b-b1ce-49cd-af48-b343a0df8606",
+        "Name": "Clipboard History",
+        "Version": "1.1.1",
+        "ActionKeywords": [
+          "cb"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "FF2C31D6A47348FFB9ED4EB26F6794E2": {
+        "ID": "FF2C31D6A47348FFB9ED4EB26F6794E2",
+        "Name": "Fancy Emoji",
+        "Version": "1.0.9",
+        "ActionKeywords": [
+          "e"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "915f45f7747440f7828621bd8ec0f298": {
+        "ID": "915f45f7747440f7828621bd8ec0f298",
+        "Name": "DuckDuckGo !bang",
+        "Version": "1.3.3",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "F32C0CF0270944AFAC9298BB67E16292": {
+        "ID": "F32C0CF0270944AFAC9298BB67E16292",
+        "Name": "Emoji\u002B",
+        "Version": "2.0.0",
+        "ActionKeywords": [
+          ":"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "dcbb0454f0694431944b1b7f18673a54": {
+        "ID": "dcbb0454f0694431944b1b7f18673a54",
+        "Name": "How Long To Beat",
+        "Version": "1.0.1",
+        "ActionKeywords": [
+          "beat"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "e4d1c3a7-b8f3-45d2-b5fa-5a3c8c0a1f41": {
+        "ID": "e4d1c3a7-b8f3-45d2-b5fa-5a3c8c0a1f41",
+        "Name": "WSL File Search",
+        "Version": "1.2.3",
+        "ActionKeywords": [
+          "wslf"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "70CED0AC-3D9D-4255-AD0B-D9A37862E879": {
+        "ID": "70CED0AC-3D9D-4255-AD0B-D9A37862E879",
+        "Name": "AnyVideo Downloader",
+        "Version": "2.4.0",
+        "ActionKeywords": [
+          "vd"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "c11d8b37-9967-4af3-b134-a22171d0dba8": {
+        "ID": "c11d8b37-9967-4af3-b134-a22171d0dba8",
+        "Name": "AppUpgrader",
+        "Version": "1.1.5",
+        "ActionKeywords": [
+          "up"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "10A62E71-37A5-4978-95A7-4D3F7FBD5885": {
+        "ID": "10A62E71-37A5-4978-95A7-4D3F7FBD5885",
+        "Name": "Browser Tabs",
+        "Version": "1.1.1",
+        "ActionKeywords": [
+          "t"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "A3EA904783E14335894354F09DC4B054": {
+        "ID": "A3EA904783E14335894354F09DC4B054",
+        "Name": "CdList",
+        "Version": "1.3.0",
+        "ActionKeywords": [
+          "cd"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "42DE0794627A48B2847E6FDF29DD5561": {
+        "ID": "42DE0794627A48B2847E6FDF29DD5561",
+        "Name": "FlowYouTube",
+        "Version": "2.1.0",
+        "ActionKeywords": [
+          "yt"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "218DAC752A2E468AB3781AFAEB481CBF": {
+        "ID": "218DAC752A2E468AB3781AFAEB481CBF",
+        "Name": "Gitmoji Plus",
+        "Version": "1.3.0",
+        "ActionKeywords": [
+          "gmp"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "cdd437bf-10e4-4ef1-b22d-0af20780df63": {
+        "ID": "cdd437bf-10e4-4ef1-b22d-0af20780df63",
+        "Name": "HLTB",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "hltb"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "cb95613a-626f-4153-9c21-b1f7ea3bcf37": {
+        "ID": "cb95613a-626f-4153-9c21-b1f7ea3bcf37",
+        "Name": "LaunchNow",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "ln"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "4905edc2-7feb-4036-bfae-b06efc60c879": {
+        "ID": "4905edc2-7feb-4036-bfae-b06efc60c879",
+        "Name": "LinkOpener",
+        "Version": "1.3.7",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "5C310C539BFF4F47BA15D01AF0173032": {
+        "ID": "5C310C539BFF4F47BA15D01AF0173032",
+        "Name": "Lively Wallpaper Controller",
+        "Version": "1.0.1",
+        "ActionKeywords": [
+          "lw"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "C7529F50-2A71-441D-8200-D5C3BCAADAB2": {
+        "ID": "C7529F50-2A71-441D-8200-D5C3BCAADAB2",
+        "Name": "MediaControl",
+        "Version": "1.0.2",
+        "ActionKeywords": [
+          "mc"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "725660A1CB3D4FFE978A8B477EB376B4": {
+        "ID": "725660A1CB3D4FFE978A8B477EB376B4",
+        "Name": "QrFlow",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "qr"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "522FAF05-36F4-4504-BFF6-5D8F8F4396D5": {
+        "ID": "522FAF05-36F4-4504-BFF6-5D8F8F4396D5",
+        "Name": "Remind Me",
+        "Version": "1.4.0",
+        "ActionKeywords": [
+          "remind"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "eb0c1059-1824-4fa6-b04e-aaeb4303cbe1": {
+        "ID": "eb0c1059-1824-4fa6-b04e-aaeb4303cbe1",
+        "Name": "ScreenBrightness",
+        "Version": "0.0.10",
+        "ActionKeywords": [
+          "sb"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "d91d366e4ff742b3b821f9d60031c3df": {
+        "ID": "d91d366e4ff742b3b821f9d60031c3df",
+        "Name": "Search npm",
+        "Version": "1.0.4",
+        "ActionKeywords": [
+          "npm"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "9E4A2B3C-5F6D-4E8A-9B1C-2D3E4F5A6B7C": {
+        "ID": "9E4A2B3C-5F6D-4E8A-9B1C-2D3E4F5A6B7C",
+        "Name": "Speed Test",
+        "Version": "1.2.2",
+        "ActionKeywords": [
+          "st"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "b9aaddfa36a948f384b31b5fb6186861": {
+        "ID": "b9aaddfa36a948f384b31b5fb6186861",
+        "Name": "Spell Checker",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "spell"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "A7F3C4E16B8D4B5AB2D7139EEC8FA0B4": {
+        "ID": "A7F3C4E16B8D4B5AB2D7139EEC8FA0B4",
+        "Name": "SteamFlow",
+        "Version": "2.0.1",
+        "ActionKeywords": [
+          "steam"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "ddd30a33-c565-4dcf-9558-7bc5bb433e13": {
+        "ID": "ddd30a33-c565-4dcf-9558-7bc5bb433e13",
+        "Name": "Vim",
+        "Version": "0.0.2",
+        "ActionKeywords": [
+          "vm"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "d3dcd1a102b8412bb9e92bf78a5f4e82": {
+        "ID": "d3dcd1a102b8412bb9e92bf78a5f4e82",
+        "Name": "Wallpaper Changer",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "wall"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "7D530704C68E4838896BBA5C4C1DE7DF": {
+        "ID": "7D530704C68E4838896BBA5C4C1DE7DF",
+        "Name": "Win Hotkey",
+        "Version": "4.0.0",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "72E67DFE0F6F482395AF3CD0A3BC6F04": {
+        "ID": "72E67DFE0F6F482395AF3CD0A3BC6F04",
+        "Name": "WinsFlow",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "wn"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      }
+    }
+  }
+}

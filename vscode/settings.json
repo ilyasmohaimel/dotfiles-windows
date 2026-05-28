@@ -1,0 +1,45 @@
+{
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Tokyo Night Storm",
+
+  "editor.fontFamily": "'CommitMono', 'JetBrainsMono Nerd Font', 'Symbols Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "—": true,
+    "–": true,
+    "•": true,
+  },
+
+  "terminal.integrated.fontFamily": "'CommitMono', 'JetBrainsMono Nerd Font'",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+
+  "claudeCode.preferredLocation": "panel",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+}

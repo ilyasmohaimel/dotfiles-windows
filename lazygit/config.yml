@@ -1,0 +1,35 @@
+gui:
+  theme:
+    lightTheme: false
+    activeBorderColor:
+      - "#7aa2f7"
+      - bold
+    inactiveBorderColor:
+      - "#565f89"
+    optionsTextColor:
+      - "#7aa2f7"
+    selectedLineBgColor:
+      - "#2e3c64"
+    selectedRangeBgColor:
+      - "#2e3c64"
+    cherryPickedCommitBgColor:
+      - "#bb9af7"
+    cherryPickedCommitFgColor:
+      - "#1a1b26"
+    unstagedChangesColor:
+      - "#f7768e"
+    defaultFgColor:
+      - "#c0caf5"
+  nerdFontsVersion: "3"
+  showFileTree: true
+  showRandomTip: false
+  scrollHeight: 2
+  expandFocusedSidePanel: true
+
+git:
+  paging:
+    colorArg: always
+    useConfig: true
+  parseEmoji: true
+  autoFetch: true
+  autoRefresh: true

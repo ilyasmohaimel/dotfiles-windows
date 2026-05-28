@@ -1,0 +1,29 @@
+[safe]
+	directory = C:/Users/LookFrost/cv-site
+[user]
+	name = Ilyas Mohaimel
+	email = ilyasmohaimel@gmail.com
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
+	syntax-theme = tokyonight_storm
+	dark = true
+	minus-style = "syntax #3d2b3a"
+	minus-emph-style = "syntax #5e3a4a"
+	plus-style = "syntax #2a3a2a"
+	plus-emph-style = "syntax #3a5a3a"
+	line-numbers-minus-style = "#f7768e"
+	line-numbers-plus-style = "#9ece6a"
+	line-numbers-zero-style = "#565f89"
+	file-style = "#7aa2f7 bold"
+	hunk-header-style = "#bb9af7 bold"
+	hunk-header-decoration-style = "#565f89 box"
+[merge]
+	conflictStyle = diff3
+[diff]
+	colorMoved = default

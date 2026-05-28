@@ -1,0 +1,25 @@
+﻿
+Name             Version  Source     Updated             Info          
+----             -------  ------     -------             ----          
+btop             1.0.5    main       2026-05-22 03:55:07               
+coreutils        5.97.3   main       2026-05-19 01:32:09               
+delta            0.19.2   main       2026-05-19 01:48:45               
+eza              0.23.4   main       2026-05-19 01:48:42               
+fastfetch        2.62.1   main       2026-05-10 20:39:02               
+findutils        4.4.2    main       2026-05-19 01:44:46               
+fzf              0.72.0   main       2026-05-19 00:13:05               
+gawk             5.4.0    main       2026-05-19 01:32:24               
+gh               2.93.0   main       2026-05-28 14:29:19               
+grep             3.11     main       2026-05-19 01:32:25               
+JetBrainsMono-NF 3.4.0    nerd-fonts 2026-05-19 00:14:05               
+lazygit          0.61.1   extras     2026-05-19 01:48:55               
+less             692      main       2026-05-19 01:32:26               
+nano             7.2-22.1 main       2026-05-12 18:15:26               
+ripgrep          15.1.0   main       2026-05-19 01:48:43               
+sed              4.9      main       2026-05-19 01:32:10               
+starship         1.25.1   main       2026-05-19 00:13:03               
+wezterm-nightly                      2026-05-18 23:32:46 Install failed
+winfetch         2.5.1    main       2026-05-12 16:45:00               
+zoxide           0.9.9    main       2026-05-19 00:13:04               
+
+

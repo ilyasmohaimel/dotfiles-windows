@@ -1,0 +1,41 @@
+[general]
+working_directory = "C:\\Users\\LookFrost"
+
+[terminal.shell]
+program = "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+args = ["-NoLogo"]
+
+[window]
+opacity = 0.72
+blur = true
+padding = { x = 15, y = 15 }
+decorations = "None"
+
+#window:
+#  opacity: 0.8
+#  title: Alacritty
+#  dynamic_title: false
+
+[font]
+size = 11
+
+[font.normal]
+family = "CommitMono"
+style = "Regular"
+
+[font.bold]
+family = "CommitMono"
+style = "Bold"
+
+[font.italic]
+family = "CommitMono"
+style = "Italic"
+
+[font.bold_italic]
+family = "CommitMono"
+style = "Bold Italic"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
