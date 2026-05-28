@@ -7,6 +7,16 @@ if not A_IsAdmin {
     ExitApp
 }
 
+; ─── Strip Zebar's native close button (WS_SYSMENU) ─────────────────────────
+; Zebar's zpack has no "decorations: false" option, so we remove the style here.
+SetTimer StripZebarChrome, 2000
+StripZebarChrome() {
+    if WinExist("ahk_exe zebar.exe") {
+        WinSetStyle("-0x80000", "ahk_exe zebar.exe")  ; -WS_SYSMENU
+        SetTimer StripZebarChrome, 0  ; run once, then stop
+    }
+}
+
 ; ─── Hide taskbar on startup and keep it hidden ───────────────────────────────
 HideTaskbar() {
     if WinExist("ahk_class Shell_TrayWnd")
