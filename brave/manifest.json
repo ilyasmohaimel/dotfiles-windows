@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Tokyo Night Storm",
+  "theme": {
+    "colors": {
+      "frame":                   [26, 27, 38],
+      "frame_inactive":          [22, 22, 30],
+      "frame_incognito":         [22, 22, 30],
+      "toolbar":                 [29, 32, 48],
+      "toolbar_text":            [169, 177, 214],
+      "tab_text":                [169, 177, 214],
+      "tab_background_text":     [86, 95, 137],
+      "background_tab_inactive": [26, 27, 38],
+      "bookmark_text":           [169, 177, 214],
+      "toolbar_button_icon":     [122, 162, 247],
+      "ntp_background":          [26, 27, 38],
+      "ntp_text":                [169, 177, 214]
+    },
+    "tints": {
+      "buttons": [0.6, 0.5, 0.9]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}

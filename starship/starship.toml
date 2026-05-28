@@ -1,0 +1,95 @@
+# Tokyo Night Storm — matches WezTerm / Zebar / PowerShell theme
+# Single-line prompt, fish-like, Nerd Font glyphs
+
+add_newline = true
+command_timeout = 2000
+
+format = """
+[](#7aa2f7)\
+$os\
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$python\
+$rust\
+$lua\
+$package\
+$cmd_duration\
+$fill\
+$time\
+$line_break\
+$character"""
+
+[fill]
+symbol = " "
+
+[character]
+success_symbol = "[❯](bold #7aa2f7)"
+error_symbol = "[❯](bold #f7768e)"
+vimcmd_symbol = "[❮](bold #9ece6a)"
+
+[os]
+disabled = false
+format = "[](bg:#7aa2f7 fg:#1d2030)[$symbol ](bg:#7aa2f7 fg:#1d2030)[](fg:#7aa2f7 bg:#24283b)"
+
+[os.symbols]
+Windows = ""
+
+[directory]
+format = "[ $path ](bg:#24283b fg:#c0caf5)[](fg:#24283b)"
+truncation_length = 3
+truncate_to_repo = true
+truncation_symbol = "…/"
+read_only = "  "
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"Desktop" = " "
+
+[git_branch]
+format = " [ $symbol$branch](fg:#bb9af7)"
+symbol = " "
+
+[git_status]
+format = " [$all_status$ahead_behind](fg:#e0af68)"
+ahead = " ${count}"
+behind = " ${count}"
+diverged = "  ${ahead_count} ${behind_count}"
+conflicted = " ${count}"
+modified = " ${count}"
+deleted = " ${count}"
+renamed = " ${count}"
+stashed = " ${count}"
+staged = " ${count}"
+untracked = " ${count}"
+up_to_date = ""
+
+[nodejs]
+format = " [ $version](fg:#9ece6a)"
+detect_files = ["package.json", ".nvmrc"]
+
+[python]
+format = " [ $version( ($virtualenv\\))](fg:#7dcfff)"
+
+[rust]
+format = " [󱘗 $version](fg:#ff9e64)"
+
+[lua]
+format = " [󰢱 $version](fg:#7dcfff)"
+
+[package]
+format = " [󰏗 $version](fg:#bb9af7)"
+disabled = true
+
+[cmd_duration]
+format = " [󱫐 $duration](fg:#565f89)"
+min_time = 2000
+
+[time]
+disabled = false
+format = "[ $time ](fg:#565f89)"
+time_format = "%H:%M"
