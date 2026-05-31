@@ -1,0 +1,14 @@
+{
+  "Shell": 0,
+  "ReplaceWinR": false,
+  "CloseShellAfterPress": false,
+  "LeaveShellOpen": false,
+  "RunAsAdministrator": true,
+  "UseWindowsTerminal": false,
+  "ShowOnlyMostUsedCMDs": false,
+  "ShowOnlyMostUsedCMDsNumber": 5,
+  "CommandHistory": {
+    "Install-Script winfetch": 1,
+    "scoop install winfetch": 1
+  }
+}

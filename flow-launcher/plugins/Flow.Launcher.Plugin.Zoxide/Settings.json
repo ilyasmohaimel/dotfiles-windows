@@ -1,0 +1,19 @@
+{
+  "Commands": [
+    {
+      "Name": "Open with File Explorer",
+      "Executable": "explorer.exe",
+      "Arguments": "\u0022{path}\u0022",
+      "IsEnabled": true,
+      "ZoxideAddOnSuccess": true,
+      "Icon": "folder.png"
+    }
+  ],
+  "ZoxideExePath": "",
+  "DefaultCommand": "Open with File Explorer",
+  "CommandTimeoutMs": 1000,
+  "CacheExpirationSeconds": 0,
+  "FishStyleEnabled": false,
+  "PathTruncationLength": 0,
+  "TruncationSymbol": "\u2026"
+}

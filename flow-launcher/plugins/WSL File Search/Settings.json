@@ -1,0 +1,6 @@
+{
+  "distro": "Ubuntu",
+  "search_depth": "0",
+  "max_results": "10",
+  "shell": "bash"
+}

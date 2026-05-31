@@ -1,0 +1,14 @@
+{
+  "show_achievements": true,
+  "show_last_played": true,
+  "hide_hidden_games": true,
+  "show_playtime": true,
+  "show_player_count": true,
+  "show_positive_reviews": true,
+  "show_platforms": true,
+  "detect_owned_games": true,
+  "show_prices": true,
+  "sort_local_by_recent": true,
+  "enable_perf_logging": false,
+  "blacklisted_app_ids": "228980"
+}

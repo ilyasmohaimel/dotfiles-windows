@@ -1,0 +1,196 @@
+@import 'https://www.nerdfonts.com/assets/css/webfont.css';
+
+/* ── Tokyo Night (Storm) — monochrome ────────────────────── */
+:root {
+  --tn-bg:        #1d2030;
+  --tn-fg:        #c0caf5;
+  --tn-blue:      #7aa2f7;
+  --tn-comment:   #565f89;
+  --tn-red:       #f7768e;
+  --tn-border:    rgba(122, 162, 247, 0.15);
+
+  --text-size: 12px;
+  --icon-size: 12px;
+}
+
+body {
+  font-family: 'CommitMono', ui-monospace, monospace;
+  font-size: var(--text-size);
+  color: var(--tn-fg);
+  overflow: hidden;
+}
+
+/* Icons: monochrome muted blue-gray everywhere */
+i {
+  margin-right: 7px;
+  font-size: var(--icon-size);
+  color: var(--tn-comment);
+}
+
+div, span, p {
+  cursor: default;
+  user-select: none;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  background: rgba(29, 32, 48, 0.82);
+  border-bottom: 1px solid var(--tn-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  padding: 4px 1.5vw;
+}
+
+.left, .center, .right {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  justify-self: center;
+  color: var(--tn-fg);
+  letter-spacing: 0.03em;
+}
+
+.right {
+  justify-self: end;
+}
+
+/* Logo — muted */
+.logo {
+  color: var(--tn-comment);
+  margin-right: 14px;
+  font-size: 14px;
+}
+
+/* Workspaces */
+.workspaces {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  background: transparent;
+  margin-right: 4px;
+  padding: 3px 9px;
+  color: var(--tn-comment);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'CommitMono', ui-monospace, monospace;
+  font-size: var(--text-size);
+  transition: all 0.15s ease;
+
+  &.displayed {
+    color: var(--tn-fg);
+  }
+
+  &.focused {
+    color: var(--tn-bg);
+    background: var(--tn-blue);
+    border-color: var(--tn-blue);
+  }
+
+  &:hover:not(.focused) {
+    background: rgba(122, 162, 247, 0.12);
+    color: var(--tn-fg);
+  }
+}
+
+/* Right-side spacing */
+.logo,
+.binding-mode,
+.tiling-direction,
+.paused-button,
+.network,
+.memory,
+.cpu,
+.battery,
+.weather,
+.clock {
+  margin-right: 18px;
+}
+.clock {
+  color: var(--tn-fg);
+  font-variant-numeric: tabular-nums;
+}
+.clock i { color: var(--tn-comment); }
+
+/* Media now-playing pill (center) */
+.media {
+  display: flex;
+  align-items: center;
+  max-width: 36vw;
+  color: var(--tn-fg);
+}
+.media i { color: var(--tn-fg); }
+.media-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Binding-mode and paused pills (still TEXT, so keep monospace) */
+.binding-mode,
+.paused-button {
+  background: rgba(192, 202, 245, 0.08);
+  color: var(--tn-fg);
+  border-radius: 4px;
+  line-height: 1;
+  padding: 4px 8px;
+  border: 1px solid var(--tn-border);
+  cursor: pointer;
+  font-family: 'CommitMono', ui-monospace, monospace;
+}
+.binding-mode { margin-right: 4px; }
+
+/* Tiling direction is an ICON BUTTON — must NOT override the .nf font family.
+   The original bug: setting font-family on the button overrode the nerd font
+   that the `.nf` class loads, so the swap_horizontal/vertical glyph rendered blank. */
+.tiling-direction {
+  background: rgba(192, 202, 245, 0.08);
+  color: var(--tn-fg);
+  border-radius: 4px;
+  line-height: 1;
+  padding: 4px 8px;
+  border: 1px solid var(--tn-border);
+  cursor: pointer;
+  /* NO font-family here — let the .nf class supply the nerd font */
+  font-size: 14px;
+}
+
+/* Status widget icons — all muted/monochrome, no colorful per-widget tints */
+.network i,
+.memory i,
+.cpu i,
+.battery i,
+.weather i {
+  color: var(--tn-comment);
+}
+
+/* The one place color is still meaningful: CPU over 85% turns red as a warning */
+.cpu .high-usage {
+  color: var(--tn-red);
+}
+
+/* Charging bolt — keep monochrome too */
+.battery {
+  position: relative;
+}
+.battery .charging-icon {
+  position: absolute;
+  font-size: 7px;
+  left: -8px;
+  top: 3px;
+  color: var(--tn-fg);
+}

@@ -1,0 +1,10 @@
+{
+  "ShowReminderWindow": false,
+  "ShowReminderNotification": true,
+  "ShowNotificationsOnAddAndDelete": true,
+  "AcceptShortForm": false,
+  "ReminderWindowWidth": 300,
+  "ReminderWindowHeight": 200,
+  "ReminderWindowHeaderFontSize": 24,
+  "ReminderWindowBodyFontSize": 16
+}
