@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-`dotfiles-windows` is a config backup for LookFrost's Windows 11 tiling-WM setup. There is no build step, no package manager, and no test suite — changes are made to source config files and then synced here manually (copy → commit → push).
+`dotfiles-windows` is a config backup for LookFrost's (Ilyas Mohaimel) Windows 11 tiling-WM setup. There is no build step, no package manager, and no test suite — changes are made to source config files and then synced here manually (copy → commit → push).
+
+**Hardware context**: i7-8550U + NVIDIA MX150 (4GB), 8GB RAM. On Windows 11 Pro because of hybrid GPU driver issues on Linux — would otherwise run EndeavourOS. Performance-sensitive config choices (e.g. `webgpu_power_preference = 'LowPower'`, opacity 0.4 rather than higher) reflect this hardware. Has 6+ years of Linux WM experience (Qtile, Hyprland, i3, Sway, bspwm, etc.) — understands configs at a deep level, no need to over-explain.
 
 **Live config locations → repo paths:**
 
