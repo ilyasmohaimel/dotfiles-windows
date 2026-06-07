@@ -32,14 +32,14 @@ SetTimer HideTaskbar, 500
 ; Win+Space → Open Flow Launcher and force focus (prevents lost-keyboard-input issue)
 #Space:: {
     Send("!{F1}")
-    if WinWait("ahk_exe Flow.Launcher.exe",, 1)
+    if WinWait("ahk_exe Flow.Launcher.exe",, 3)
         WinActivate("ahk_exe Flow.Launcher.exe")
 }
 
 ; Win+R → Open Flow Launcher (overrides Run dialog)
 #r:: {
     Send("!{F1}")
-    if WinWait("ahk_exe Flow.Launcher.exe",, 1)
+    if WinWait("ahk_exe Flow.Launcher.exe",, 3)
         WinActivate("ahk_exe Flow.Launcher.exe")
 }
 
