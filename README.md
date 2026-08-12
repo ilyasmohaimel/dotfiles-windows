@@ -12,24 +12,25 @@ This is a collection of personal configs, not a one-command installer. I copy ov
 
 ## What's here
 
-| Folder | What it contains |
+```text
+.
+├── browser/       Brave and Discord/Vencord settings
+├── desktop/       Window managers, launcher state, and shortcuts
+├── development/   Git and Lazygit
+├── editors/       VS Code and VSCodium
+├── packages/      Scoop inventory
+├── terminal/      Shells, terminals, prompt, and CLI tools
+└── Wallpapers/    Wallpaper gallery
+```
+
+| Category | Contents |
 | --- | --- |
-| [`powershell/`](powershell/) | PowerShell profile, aliases, functions, and prompt setup |
-| [`wezterm/`](wezterm/) | WezTerm terminal configuration |
-| [`alacritty/`](alacritty/) | Alacritty terminal configuration |
-| [`starship/`](starship/) | Starship prompt configuration |
-| [`fastfetch/`](fastfetch/) | Fastfetch config and custom logo |
-| [`autohotkey/`](autohotkey/) | My AutoHotkey shortcuts |
-| [`glazewm/`](glazewm/) | GlazeWM layouts and keybinds |
-| [`zebar/`](zebar/) | Zebar widgets and styles |
-| [`flow-launcher/`](flow-launcher/) | Flow Launcher settings and plugin settings |
-| [`vscode/`](vscode/) / [`vscodium/`](vscodium/) | Editor settings |
-| [`vencord/`](vencord/) | Vencord settings |
-| [`git/`](git/) | Git configuration and global ignore file |
-| [`lazygit/`](lazygit/) | Lazygit configuration |
-| [`nano/`](nano/) | Nano configuration |
-| [`brave/`](brave/) | Brave browser theme manifest |
-| [`scoop/`](scoop/) | Scoop app inventory |
+| [`terminal/`](terminal/) | [PowerShell](terminal/powershell/), [WezTerm](terminal/wezterm/), [Alacritty](terminal/alacritty/), [Starship](terminal/starship/), [Fastfetch](terminal/fastfetch/), and [Nano](terminal/nano/) |
+| [`desktop/`](desktop/) | [GlazeWM and Zebar](desktop/window-managers/), [Flow Launcher](desktop/launchers/), and [AutoHotkey](desktop/shortcuts/) |
+| [`editors/`](editors/) | [VS Code](editors/vscode/) and [VSCodium](editors/vscodium/) settings |
+| [`development/`](development/) | [Git](development/git/) and [Lazygit](development/lazygit/) configuration |
+| [`browser/`](browser/) | [Brave](browser/brave/) theme files and [Vencord](browser/discord/vencord/) settings |
+| [`packages/`](packages/) | [Scoop app inventory](packages/scoop/) |
 
 ## Wallpapers
 
