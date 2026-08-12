@@ -6,3 +6,15 @@ $RECYCLE.BIN/
 # Logs / temp
 *.log
 *.tmp
+
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.session
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
